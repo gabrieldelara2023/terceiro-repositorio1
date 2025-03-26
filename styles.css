@@ -34,3 +34,9 @@ body {
     border: none;
     font-weight: bold;
 }
+
+ .form-control{
+    background-color: var(--cor3) ;
+
+ }
+     
