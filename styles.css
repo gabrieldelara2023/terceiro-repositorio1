@@ -23,7 +23,7 @@ section {
     text-shadow: -5px 5px var(--preto-claro);
 }
 
-#tropicalia {
+#Cyberpunk {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
@@ -31,7 +31,7 @@ section {
     background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
-#tropicalia .container {
+#Cyberpunk.container {
     display: flex;
     align-items: center;
     justify-content: center;
