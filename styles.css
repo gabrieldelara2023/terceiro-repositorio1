@@ -47,7 +47,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--preto-claro);
+    background-color: var(--ciano-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
