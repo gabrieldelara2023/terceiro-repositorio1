@@ -1,44 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-principal:#ffed00;
-    --cor1:#00f6ff;
-    --cor2:#1c1c0d;
-    --cor3:#2f3314;
-    --cor4:#000000;
-    --cor5:#FFFFFF;
-    --cor6:#FF0031;
+    --cor-principal: #ffed00;
+    --cor1: #00f6ff;
+    --cor2: #1c1c0d;
+    --cor3: #2f3314;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --laranja-claro: #FF0031;
 }
 
 body {
     font-size: 1rem;
-    font-family: 'Roboto'; /*Roboto*/
+    font-family: 'Montserrat'; /*roboto*/
 }
 
 section {
     padding-bottom: 5rem;
 }
 
+header {
+    background-color: var(--branco);
+}
+
+.nav-link {
+    color: var(--laranja-claro);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url(img/4965007.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.botao-inicio {
+    background-color: var(--preto-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+}
+
+
 .display-4 {
     text-shadow: -5px 5px var(--preto-claro);
 }
 
-#Cyberpunk {
+#tropicalia {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
-    background: var(--cor1);
     background: var(--cor2);
     background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
-#Cyberpunk.container {
+#tropicalia .container {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
 }
+
+
+
+
+
 
 
 
@@ -52,7 +93,7 @@ section {
 }
 
 .formulario{
-    background-color: var(--branco) ;
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -60,13 +101,11 @@ section {
 }
 
 .formulario button {
-    background-color: var(--cor1) ;
+    background-color: var(--cor1);
     border: none;
     font-weight: bold;
 }
 
- .form-control{
-    background-color: var(--cor3) ;
-
- }
-     
+.form-control {
+    background-color: var(--cor3);
+}
