@@ -7,7 +7,7 @@
     --cor3: #2f3314;
     --preto: #000000;
     --branco: #FFFFFF;
-    --laranja-claro: #FF0031;
+    --amarelo-escuro: #f2ff00;
 }
 
 body {
@@ -24,7 +24,7 @@ header {
 }
 
 .nav-link {
-    color: var(--preto-claro);
+    color: var(--amarelo-escuro);
     font-weight: 600;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--ciano-claro);
+    background-color: var(--amarelo-escuro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -57,7 +57,7 @@ header {
 
 
 .display-4 {
-    text-shadow: -5px 5px var(--amarelo-claro);
+    text-shadow: -5px 5px var(--amarelo-escuro);
 }
 
 #tropicalia {
