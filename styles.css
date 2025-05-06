@@ -124,3 +124,19 @@ header {
 .apresenta-lista {
     display: none;
 }
+
+.alto-contraste {
+    background-color: var(--preto);
+    color: var(--branco)
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste .nav-link {
+    color:
+}
