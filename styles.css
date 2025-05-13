@@ -145,4 +145,21 @@ header {
     color: var(--preto);
 }
 
-.
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--amarelo-claro);
+    color: var(--preto);
+}
+
+.alto-contraste #cyberpunk {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--preto);
+}
+
+.alto-contraste .fundo-galeria {
+    background: ;
+}
